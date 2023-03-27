@@ -4,5 +4,6 @@ def is_valid_walk(walk):
         return False 
     elif walk.count("s") == walk.count("n") and walk.count("w") == walk.count("e"):
         return True
-        
+    else:
+        return False 
         
